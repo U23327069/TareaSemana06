@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Ejercicio3_Semana06 {
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingrese un número entero: ");
+        System.out.print("Ingrese un numero entero: ");
         //declaramos las variables
         int numero = scanner.nextInt();        
         int digitoMayor = 0;        
@@ -17,6 +17,6 @@ public class Ejercicio3_Semana06 {
             numero = numero / 10;
         }
         //Salida de datos
-        System.out.println("El dígito mayor es: " + digitoMayor);
+        System.out.println("El digito mayor es: " + digitoMayor);
     }    
 }
